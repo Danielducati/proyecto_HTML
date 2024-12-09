@@ -10,7 +10,7 @@ header{
 main{
     background-color: rgb(0, 0, 0);
     color: white;
-    /* text-align: center; */
+    text-align: center;
 }
 
 #titlebanner{
@@ -31,19 +31,23 @@ main{
     /* float: left; */
 }
 
-.titulo{
+
+
+/* .titulo{
     font-size: 36px;
     margin-bottom: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 
-}
+} */
+
+/* Titulo de cada seccion de productos como camisetas */
 
 .titulo2 {
-    font-family: 'Anton', sans-serif; /* Asegúrate de usar la fuente que deseas */
+    font-family: 'Anton', sans-serif;
     color: white; /* Color base del texto */
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
     text-shadow:
         0 0 5px #ffffff,   /* Luz suave */
         0 0 1px #949494,  /* Luz media */
@@ -54,27 +58,37 @@ main{
 }
 
 
+/* Esto por el momento no es nada */
+
 .section1{
-    /* display: flex; */
+    /* margin-right: 250px; */
 }
 
 
-aside{
+
+/* Imagen que esta a la derecha */
+
+.img_aside{
     float: right;
-    margin-left: 100px;
+    height: 700px;
+    width: 450px;
 }
 
-.imgAside{
-    right: 100px;
-}
 
+
+
+
+/* Carta de cada producto */
 
 .producto{
     background-color: white;
     border-radius: 10px;
     width: 300px;
     height: 300px;
+    margin-right: 400px;
 }
+
+/* Texto que va por debajo del producto */
 
 .nombre_producto{
     font-family: "Anton", sans-serif;
@@ -82,6 +96,8 @@ aside{
     font-style: normal;
     color: rgb(102, 102, 102);
     font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
 }
 
 nav ul{
