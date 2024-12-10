@@ -51,9 +51,14 @@ main{
         0 0 3px #c5c5c5, 
         0 0 4px #ffffff, 
         0 0 5px #ffffff;
+    /* float: right; */
+    margin: 0px;
+    position: absolute;
+    left: 500px;
 }
 
 
+<<<<<<< Updated upstream
 .section1{
     /* display: flex; */
 }
@@ -62,6 +67,20 @@ main{
 aside{
     float: right;
     margin-left: 100px;
+=======
+
+
+
+/* Imagen que esta a la derecha */
+
+.img_aside{
+    /* float: right; */
+    position: absolute;
+    right: 1.2rem;
+    height: 700px;
+    width: 450px;
+
+>>>>>>> Stashed changes
 }
 
 .imgAside{
@@ -69,11 +88,29 @@ aside{
 }
 
 
+<<<<<<< Updated upstream
+=======
+/* Las dos cartas por cada seccion */
+
+.doblecard{
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+/* Carta de cada producto */
+
+>>>>>>> Stashed changes
 .producto{
     background-color: white;
     border-radius: 10px;
     width: 300px;
     height: 300px;
+<<<<<<< Updated upstream
+=======
+    /* margin-right: 400px; */
+    /* position: absolute; */
+>>>>>>> Stashed changes
 }
 
 .nombre_producto{
@@ -83,6 +120,9 @@ aside{
     color: rgb(102, 102, 102);
     font-size: 20px;
 }
+
+
+/* Inicio, y todo lo del nav etc */
 
 nav ul{
     list-style: none;
@@ -100,17 +140,11 @@ a{
     padding: 10px;
 }
 
+/* Video del banner */
+
 .vheader{
     /* display: flex; */
     align-items: center;
     justify-content: center;
     background-color: rgb(27, 27, 27);
-}
-
-
-
-aside{
-    display: flex;
-    align-items: right;
-    justify-content: right;
 }
