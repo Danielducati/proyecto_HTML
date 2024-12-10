@@ -1,6 +1,8 @@
 *{
     margin: 0px;
 }
+ main
+}
 
 header{
     background-color: rgb(255, 0, 0);
@@ -8,14 +10,36 @@ header{
     justify-content: left ;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     width: 100%;
-    /* height: 1200px; */
+ diego
+    
+
+    /* height: 1200px; */ main
 }
 
 main{
     background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
+
+    margin: auto;
+    padding: 20px;
 }
+
+.inicio {
+    background-color: #7e7e7e;
+    color: white;
+ font-size: 40px;
+ padding: 1rem;
+ font-family: 'Anton', sans-serif ;
+ text-shadow: 2px 2px black ;
+}
+
+
+
+
+
+}
+
 
 /* Header y textos */
 
@@ -25,7 +49,11 @@ main{
     background-color: rgb(51, 51, 51);
     height: 220px;
     text-align: left;
+
+   
+
     /* margin-bottom: 120px; */
+
 }
 
 .textoh h1{
@@ -103,7 +131,11 @@ nav ul{
     height: 40px;
     margin-top: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    width: 1405px;
+=======
     width: 100%;
+
 }
 
 .a_nav{
@@ -132,8 +164,16 @@ nav ul{
 
 /* Estilo de cada seccion de ropa como si fuera una carta */
 
+
+/* Este puede dar el problema que agrega bordes blancos a la pagina */
+
 .stylesection{
     margin: 40px 40px 40px 0px;
+    padding: 2rem;
+
+.stylesection{
+    margin: 40px 40px 40px 0px;
+
 }
 
 
@@ -143,7 +183,11 @@ nav ul{
     font-family: 'Anton', sans-serif;
     color: white; /* Color base del texto */
     text-align: center;
+
+    font-size: 150px;
+
     font-size: 70px;
+
     text-shadow:
         0 0 5px #ffffff,   /* Luz suave */
         0 0 1px #949494,  /* Luz media */
@@ -151,10 +195,17 @@ nav ul{
         0 0 3px #c5c5c5, 
         0 0 4px #ffffff, 
         0 0 5px #ffffff;
+
+    margin-top: -200px;
+    position: absolute;
+    left: 500px;
+    
+
     /* float: right; */
     margin: 0px;
     position: absolute;
     left: 500px;
+
 }
 
 
@@ -170,7 +221,11 @@ nav ul{
 /* Imagen que esta a la derecha */
 
 .img_aside{
+
+    
+
     /* float: right; */
+
     position: absolute;
     right: 1.2rem;
     height: 700px;
@@ -185,6 +240,7 @@ nav ul{
 .doblecard{
     text-align: left;
     margin-left: 50px;
+
 }
 
 
@@ -195,8 +251,12 @@ nav ul{
     border-radius: 10px;
     width: 300px;
     height: 300px;
+
+   padding: 2rem;
+
     /* margin-right: 400px; */
     /* position: absolute; */
+
 }
 
 /* Texto que va por debajo del producto */
@@ -205,7 +265,11 @@ nav ul{
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+    color:white;
+
     color: rgb(102, 102, 102);
+
     font-size: 20px;
     text-align: left;
     margin-left: 0px;
@@ -217,14 +281,28 @@ nav ul{
 .boton{
     position: absolute;
     right: 45%;
+
+    margin-top: 10rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-right: 1rem;
+
+
     margin-top: 300px;
+
 }
 
 .btn_mostrar{
     color: white;
     background-color: rgb(0, 0, 0);
     text-decoration: none;
+
+    border: 2px solid rgb(80, 80, 80);
+
     border: 1px solid rgb(80, 80, 80);
+
     padding: 15px;
 }
 
@@ -233,11 +311,19 @@ nav ul{
 footer {
     background-color: #7e7e7e;
     display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(15px, 1fr));
+    padding: 2rem;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times ;
+    height: 280px;
+
     grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
     padding: 2rem;
     font-size: 24px;
     font-family:'Anton', sans-serif ;
     height: 250px;
+
 }
 
 .imgfooter {
@@ -251,8 +337,55 @@ footer {
 
 /* redes */
 .redes {
+
+    margin-left: 2rem;
+    padding: 3%;
+    margin-top: 2rem;
+}
+
+/* Segunda pagina */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+.titulo_catalogo{
+    font-family: 'Anton', sans-serif;
+    color: white; /* Color base del texto */
+    text-align: center;
+    font-size: 70px;
+    text-shadow:
+        0 0 5px #ffffff,   /* Luz suave */
+        0 0 1px #949494,  /* Luz media */
+        0 0 5px #7e7e7e,  /* Luz intensa */
+        0 0 3px #c5c5c5, 
+        0 0 4px #ffffff, 
+        0 0 5px #ffffff;
+    /* float: right; */
+    margin: 0px;
+}
+
+.section2{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+
+.card2{
+    text-align: left;
+    /* margin-left: 50px; */
+}
+
+.nombre_producto_catalogo{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    /* text-align: left; */
+    /* margin-left: 0px; */
+}
+
     margin-left: 80rem;
     padding: 3%;
 }
+
 
 
