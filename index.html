@@ -8,121 +8,145 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
     <header>
-        <img id="imgbanner" src="img/logo/jordanlogo.jpg" height="150" >
-        <h1 class="titulo2" id="titlebanner">TUS FAVORITOS VOLVIERON</h1>
-        <p class="letra2" id="eslogan">Llego lo mas esperado por todos, nueva coleccion de una temporada exclusiva</p>
+        <div class="headertext">
+                <img id="imgbanner" src="img/logo/jordanlogo_blanco.png">
+            <div class="textoh">
+                <h1 id="titlebanner">TUS FAVORITOS VOLVIERON.</h1>
+                <p id="eslogan">LLEGO LO MAS ESPERADO POR TODOS, NUEVA COLECCION DE TEMPORADA EXCLUSIVA</p>
+            </div>
+        </div>
+        
 
-
+        <nav>
+            <ul>
+                <li><a href="#home" class="a_nav">Inicio</a></li>
+                <li><a href="#catalogo" class="a_nav">Catálogo</a></li>
+                <li><a href="#contacto" class="a_nav">Contacto</a></li>
+                <li><a href="#quienessomos" class="a_nav">Quienes somos?</a></li>
+                <li><a href="#buscar" class="a_nav">Buscar</a></li>
+            </ul>
+        </nav>
 
         <div class="vheader">
             <video width="100%" height="100%" autoplay muted loop>
                 <source src="video/Video1.mp4" type="video/mp4">
             </video>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#catalogo">Catálogo</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#quienessomos">¿Quienes somos?</a></li>
-                <li><a href="#buscar">Buscar</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h2>Bienvenido</h2>
-            <p>Bienvenido a danstore, sientase bienvenido aqui encontraras tu estilo ideal, tenemos todo lo que te gusta</p>
+        <section class="inicio" id="home">
+            <h2>Bienvenido a nuestro catálogo</h2>
+            
         </section>
         
-        <section id="catalogo">
-        <h2>Catalogo</h2>
-        </section>
+        
 
 
         <!-- Seccion de ropa inteior -->
-        <section>
-            <article>
-                <h2 class="titulo2">Ropa interior</h2>
+        <section class="stylesection">
 
                 <!-- Imagen a la derecha, si van a agregar que la imagen sea 400x600 pls -->
                 <img class="img_aside" src="img/catalogo/interiores/interiores_derecha.png" alt="modelo_interior">
 
-            <div class="doblecard">
-                <img class="producto" src="img/catalogo/interiores/medias_negras.png"> 
-                <figcaption class="nombre_producto">Medias Jordan mi tio</figcaption> 
-            
-                <img class="producto" src="img/catalogo/interiores/boxer_2.png" >
-                <figcaption class="nombre_producto">Boxer Jordan</figcaption>
-            </div>
+            <article >
+                <div class="doblecard">
+                    <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
+                    <img class="producto" src="img/catalogo/interiores/medias_negras.png">
+                    
+                    
+                    
+                    <figcaption class="nombre_producto">Medias deportivas  $50.000</figcaption> 
+                </div>
 
+               <h2 class="titulo2">Ropa interior</h2>
+
+                <div class="doblecard">
+                    <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
+                    <img class="producto" src="img/catalogo/interiores/boxer_2.png" >
+                    
+                    <figcaption class="nombre_producto">Boxer Jordan  $70.000</figcaption>
+                    
+                </div>
             </article>
         </section>
 
         <!-- Seccion de camisetas -->
 
-
-        <div>
-            <section>
+            <section class="stylesection">
                 <article>
-                    <h2 class="titulo2">Camisetas</h2>
 
 
                     <!-- Imagen a la derecha -->
                     <img class="img_aside" src="img/catalogo/camisetas/camiseta_derecha.png" >
 
-                    
-                    <div class="doblecard">
+                   
+                <div class="doblecard">
+                    <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
                     <img class="producto" src=img/catalogo/camisetas/Camiseta_1.png>
-                    <figcaption class="nombre_producto">Camiseta jordan white</figcaption>
-                    
+                    <figcaption class="nombre_producto">Camiseta jordan white $149.000</figcaption>
+
+                    <h2 class="titulo2">Camisetas</h2>
+
+                    <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
+
                     <img class="producto" src="img/catalogo/camisetas/camiseta_3.png">
-                    <figcaption class="nombre_producto">Camiseta jordan black</figcaption>
+                    <figcaption class="nombre_producto">Camiseta jordan black $129.000</figcaption>
                 </div>
                 </article>
-            <section>
-        </div>
-
+             </section>
+            
+        
         <!-- Seccion de uniformes -->
 
-        <section>
+        <section class="stylesection">
             <article>
-            <h2 class="titulo2">Uniformes</h2>
 
                 <img class="img_aside" src="img/catalogo/uniformes/asdasd.png">
 
             <div class="doblecard">
+                <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
                 <img class="producto" src="img/catalogo/uniformes/uniforme1.png" alt="uniforme1" >
-                <figcaption class="nombre_producto">Uniforme jordan black</figcaption>
+                <figcaption class="nombre_producto">Uniforme jordan black  $119.990</figcaption>
+
+                <h2 class="titulo2">Uniformes</h2>
+
+                <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
 
                 <img class="producto" src="img/catalogo/uniformes/uniforme2.png" alt="unforme3">
-                <figcaption class="nombre_producto">Uniforme chicago red</figcaption>
+                <figcaption class="nombre_producto">Uniforme chicago red  $130.000</figcaption>
             </div>
             </article>          
         </section>
 
         <!-- Conjuntos deportivos -->
 
-        <section>
+        <section class="stylesection">
             <article>
-                <h2 class="titulo2">Conjuntos</h2>
 
                 <!-- Imagen a la derecha -->
                 <img class="img_aside" src="img/catalogo/conjuntos/conjunto_derecha.png">
 
 
             <div class="doblecard">
+                <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
                 <img class="producto" src="img/catalogo/conjuntos/conjunto_gris.png" alt="conjunto_gris">
-                <figcaption class="nombre_producto">Conjunto Gris</figcaption>
+                <figcaption class="nombre_producto">Conjunto Gris  $749.000</figcaption>
+
+                <h2 class="titulo2">Conjuntos</h2>
+
+                <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
 
                 <img class="producto" src="img/catalogo/conjuntos/conjunto_negro.png">
-                <figcaption class="nombre_producto" >Conjunto Negro</figcaption>
+                <figcaption class="nombre_producto" >Conjunto Negro  $720.000</figcaption>
             </div>
             </article>
         </section>
@@ -130,43 +154,77 @@
 
         <!-- Zapatos -->
 
-        <section>
-            <h2 class="titulo2">Zapatos</h2>
+        <section class="stylesection">
 
             <!-- Imagen a la derecha -->
             <img class="img_aside" src="img/catalogo/zapatos/jordan1_rojo.png" alt="jordanrojo">
 
         <div class="doblecard">
+            <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
             <img class="producto" src="img/catalogo/zapatos/jordan5_blanco.png" alt="jordan_blanco">
-            <figcaption class="nombre_producto">Zapato Jordan 5 White</figcaption>
+            <figcaption class="nombre_producto">Zapato Jordan 5 White $1'400.000</figcaption>
+
+            <h2 class="titulo2">Zapatos</h2>
+
+            <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
 
             <img class="producto" src="img/catalogo/zapatos/jordan_negro.png" alt="jordan_negro">
-            <figcaption class="nombre_producto">Jordan True Flight black</figcaption>
+            <figcaption class="nombre_producto">Jordan True Flight black $1'200.000</figcaption>
         </div>
         </section>
 
 
         <!-- Combos -->
 
-        <section>
-            <h2 class="titulo2">Combos</h2>
+        <section class="stylesection">
 
             <!-- Imagen a la derecha -->
             <img class="img_aside" src="img/catalogo/combos/combo_derecha.png" alt="jordanrojo">
 
 
         <div class="doblecard">
+            <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
             <img class="producto" src="img/catalogo/combos/combo11.png" alt="combo11">
-            <figcaption class="nombre_producto">Combo 1</figcaption>
+            <figcaption class="nombre_producto">Combo 1 $2'349.000</figcaption>
 
-            <img class="producto" src="/proyecto_HTML/img/catalogo/combos/combo2.png" alt="combo2">
-            <figcaption class="nombre_producto">Combo 2</figcaption>
+            <h2 class="titulo2">Combos</h2>
+
+            <div class="boton"><a href="catalogos.html" class="btn_mostrar">Mostrar todo</a></div>
+
+            <img class="producto" src="img/catalogo/combos/combo2.png" alt="combo2">
+            <figcaption class="nombre_producto">Combo 2 $2'200.000</figcaption>
         </div>
         </section>
     </main>
 
     <footer>
+        <div class="imgfooter" >
+            <img src="img/logo/Logo-Footer.png" alt="logo" height="120" >
+            <figcaption>Siguenos</figcaption>
+            <a href="https://es-la.facebook.com/"><img src="img/logo/red-facebook.png" alt="redes" height="60"></a>
+            <a href="https://www.instagram.com/"><img src="img/logo/red-intagram.png" alt="redes2" height="60"></a>
+            <a href="https://x.com/"></a><img src="img/logo/red-twitter.png" alt="redes3" height="60"></a>
+        </div>
 
+        <div>
+            <h2>Acerca de </h2>
+            <ul>
+                <li>Concepto</li>
+                <li>¿Quienes somos?</li>
+                <li>FAQ</li>
+                <li>Terminos y condiciones</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Conocenos</h2>
+            <ul>
+                <li>Empresa</li>
+                <li>Prensa</li>
+                <li>Empresa</li>
+                <li>Contacto</li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
