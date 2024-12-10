@@ -1,4 +1,4 @@
-header{
+header {
     background-color: rgb(0, 0, 0);
     color: #ececec;
     justify-content: center;
@@ -7,91 +7,123 @@ header{
     height: 1200px;
 }
 
-main{
+main {
     background-color: rgb(0, 0, 0);
     color: white;
-    /* text-align: center; */
+    text-align: center;
 }
 
-#titlebanner{
+#titlebanner {
     background-color: black;
     float: left;
     margin-right: 20px;
 }
 
-#imgbanner{
+#imgbanner {
     background-color: black;
     float: left;
 }
 
 
 
-#eslogan{
+#eslogan {
     background-color: black;
     /* float: left; */
 }
 
-.titulo{
+
+
+/* .titulo{
     font-size: 36px;
     margin-bottom: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 
-}
+} */
+
+/* Titulo de cada seccion de productos como camisetas */
 
 .titulo2 {
-    font-family: 'Anton', sans-serif; /* Asegúrate de usar la fuente que deseas */
-    color: white; /* Color base del texto */
+    font-family: 'Anton', sans-serif;
+    color: white;
+    /* Color base del texto */
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
     text-shadow:
-        0 0 5px #ffffff,   /* Luz suave */
-        0 0 1px #949494,  /* Luz media */
-        0 0 5px #7e7e7e,  /* Luz intensa */
-        0 0 3px #c5c5c5, 
-        0 0 4px #ffffff, 
+        0 0 5px #ffffff,
+        /* Luz suave */
+        0 0 1px #949494,
+        /* Luz media */
+        0 0 5px #7e7e7e,
+        /* Luz intensa */
+        0 0 3px #c5c5c5,
+        0 0 4px #ffffff,
         0 0 5px #ffffff;
+    /* float: right; */
+    margin: 0px;
+    position: absolute;
+    left: 500px;
 }
 
 
-.section1{
-    /* display: flex; */
+
+
+
+/* Imagen que esta a la derecha */
+
+.img_aside {
+    /* float: right; */
+    position: absolute;
+    right: 1.2rem;
+    height: 700px;
+    width: 450px;
+
 }
 
 
-aside{
-    float: right;
-    margin-left: 100px;
+
+/* Las dos cartas por cada seccion */
+
+.doblecard {
+    text-align: left;
+    margin-left: 50px;
 }
 
-.imgAside{
-    right: 100px;
-}
 
+/* Carta de cada producto */
 
-.producto{
+.producto {
     background-color: white;
     border-radius: 10px;
     width: 300px;
     height: 300px;
+    /* margin-right: 400px; */
+    /* position: absolute; */
 }
 
-.nombre_producto{
+/* Texto que va por debajo del producto */
+
+.nombre_producto {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(102, 102, 102);
     font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
 }
 
-nav ul{
+
+/* Inicio, y todo lo del nav etc */
+
+nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
 }
 
-a{
+nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     background-color: #ececec;
@@ -100,17 +132,41 @@ a{
     padding: 10px;
 }
 
-.vheader{
+/* Video del banner */
+
+.vheader {
     /* display: flex; */
     align-items: center;
     justify-content: center;
     background-color: rgb(27, 27, 27);
 }
 
+/* footer */
+footer {
+    background-color: #7e7e7e;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    padding: 2rem;
+    font-size: 24px;
+    font-family:'Anton', sans-serif ;
+}
 
 
-aside{
-    display: flex;
-    align-items: right;
-    justify-content: right;
+
+.imgfooter {
+    margin-top: 10px;
+    padding: 2rem;
+    float: right;
+    position: absolute;
+    right: 8rem;
+    overflow:inherit;
+    
+    
+}
+
+/* redes */
+.redes {
+    margin-left: 80rem;
+    padding: 3%;
+   
 }
